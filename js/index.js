@@ -31,7 +31,7 @@ pastos(pasto);
 let result = 0;
 const h3 = document.querySelector('h3');
 function sumar (){
-  if(result >= 10){
+  if(result >= 9){
     let msj = 'GANASTE!!!';
     h3.style.color = 'green';
     return h3.innerText = msj
